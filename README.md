@@ -1,9 +1,9 @@
-#Covid19 CH Dashboard in MS Excel
-##Ausgangslage
+# Covid19 CH Dashboard in MS Excel
+## Ausgangslage
 Zurzeit existieren mindestens drei verschiedene Online Covid-19 CH Dashboads. Alle drei bieten gute Grafiken jedoch teilweise mit verschiedenen Diagrammen an. Die Daten sind alle up-to-date.
 Covid-19 CH als Excelfile
 Die Online Dashboards sind betreffend den Daten und Grafiken statisch. Da heisst, der Endbenutzer hat keine Möglichkeiten die Daten anders auszuwerten und auch andere Grafiken anzufertigen. Daraus entstand die Idee inwieweit sich ein solches Dashboard in MS Excel realisieren liesse. 
-##Datenbezug
+## Datenbezug
 Die Daten werden über Webverbindungen aus Excel heraus bezogen und transformiert. 
 Quellen sind:
 https://raw.githubusercontent.com/zdavatz/covid19_ch/master/data-cantons-csv/dd-covid19-openzh-cantons-series.csv
