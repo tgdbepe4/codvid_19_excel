@@ -13,4 +13,4 @@ git status
 git add .
 git commit -m update
 git push
-) 2>&1) | tee /media/pi/Data/covid_19_excel/python-scripts/logs/lastlog
+) 2>&1) | /usr/bin/tee /media/pi/Data/covid_19_excel/python-scripts/logs/lastlog

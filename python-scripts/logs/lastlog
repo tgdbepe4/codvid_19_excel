@@ -252,10 +252,16 @@ Found 572 entries
 Auf Branch master
 Ihr Branch ist auf demselben Stand wie 'origin/master'.
 
+Zum Commit vorgemerkte Änderungen:
+  (benutzen Sie "git reset HEAD <Datei>..." zum Entfernen aus der Staging-Area)
+
+	geändert:       python-scripts/logs/lastlog
+
 Änderungen, die nicht zum Commit vorgemerkt sind:
   (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
   (benutzen Sie "git checkout -- <Datei>...", um die Änderungen im Arbeitsverzeichnis zu verwerfen)
 
+	geändert:       python-scripts/logs/lastlog
 	geändert:       python-scripts/output_canton_series/AG-canton-time-series.csv
 	geändert:       python-scripts/output_canton_series/AI-canton-time-series.csv
 	geändert:       python-scripts/output_canton_series/AR-canton-time-series.csv
@@ -288,9 +294,3 @@ Ihr Branch ist auf demselben Stand wie 'origin/master'.
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-switzerland-latest.csv
 	geändert:       python-scripts/update.sh
 
-Unversionierte Dateien:
-  (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
-
-	python-scripts/logs/
-
-keine Änderungen zum Commit vorgemerkt (benutzen Sie "git add" und/oder "git commit -a")
