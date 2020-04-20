@@ -20,7 +20,7 @@ def probst_folder():
     return os.path.dirname(os.path.abspath(__file__)) + "/probst"
 
 def output_folder():
-    return os.path.dirname(os.path.abspath(__file__))  + "/output"
+    return os.path.dirname(os.path.abspath(__file__))  + "/output/"
 
 #
 # Transform
@@ -202,7 +202,7 @@ def write_daenuprobst_data(table_series):
         writer.writeheader()
 
 def write_standard_switzerland_data(tables_series):
-    file_name_base = output_folder() + "../../../data-switzerland-csv/dd-covid19-ch-switzerland-"
+    file_name_base = output_folder() + "/../../data-switzerland-csv/dd-covid19-ch-switzerland-"
     # pd.read_csv()
     df = pd.DataFrame(table_series)
     # Get unique list of dates
@@ -235,7 +235,7 @@ def write_standard_switzerland_data(tables_series):
     stats.to_csv(file_name_base + "latest.csv", mode="w", index=False)
 
 def write_standard_canton_data(table_series):
-    file_name_base = output_folder() + "../../../data-cantons-csv/dd-covid19-ch-cantons-"
+    file_name_base = output_folder() + "../../data-cantons-csv/dd-covid19-ch-cantons-"
     df = pd.DataFrame(table_series)
     # Get unique list of dates
     list_of_ds = []
