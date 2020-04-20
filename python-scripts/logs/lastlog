@@ -174,7 +174,7 @@ Skipping line 26: Expected 13 fields in line 26, saw 21. Error could possibly be
 5   GE  ...                                               None
 6   GL  ...                                               None
 7   GR  ...                                               None
-8   JU  ...  https://www.jura.ch/fr/Autorites/Coronavirus/C...
+8   JU  ...                                               None
 9   LU  ...                                               None
 10  NW  ...                                               None
 11  SG  ...                                               None
@@ -204,7 +204,7 @@ Skipping line 26: Expected 13 fields in line 26, saw 21. Error could possibly be
 5   GE  ...                                               None
 6   GL  ...                                               None
 7   GR  ...                                               None
-8   JU  ...  https://www.jura.ch/fr/Autorites/Coronavirus/C...
+8   JU  ...                                               None
 9   LU  ...                                               None
 10  NW  ...                                               None
 11  SG  ...                                               None
@@ -254,10 +254,29 @@ FileNotFoundError: [Errno 2] No such file or directory: '/media/pi/Data/covid_19
 Auf Branch master
 Ihr Branch ist auf demselben Stand wie 'origin/master'.
 
+Zum Commit vorgemerkte Änderungen:
+  (benutzen Sie "git reset HEAD <Datei>..." zum Entfernen aus der Staging-Area)
+
+	geändert:       python-scripts/logs/lastlog
+
 Änderungen, die nicht zum Commit vorgemerkt sind:
   (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
   (benutzen Sie "git checkout -- <Datei>...", um die Änderungen im Arbeitsverzeichnis zu verwerfen)
 
+	geändert:       python-scripts/data/COVID19_Fallzahlen_FL_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_AG_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_AI_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_AR_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_GE_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_GR_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_JU_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_NE_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_NW_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_OW_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_TI_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_VS_total.csv
+	geändert:       python-scripts/data/COVID19_Fallzahlen_Kanton_ZG_total.csv
+	geändert:       python-scripts/logs/lastlog
 	geändert:       python-scripts/output_canton_series/AG-canton-time-series.csv
 	geändert:       python-scripts/output_canton_series/AI-canton-time-series.csv
 	geändert:       python-scripts/output_canton_series/AR-canton-time-series.csv
@@ -285,13 +304,10 @@ Ihr Branch ist auf demselben Stand wie 'origin/master'.
 	geändert:       python-scripts/output_canton_series/VS-canton-time-series.csv
 	geändert:       python-scripts/output_canton_series/ZG-canton-time-series.csv
 	geändert:       python-scripts/output_canton_series/ZH-canton-time-series.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest-by-time.csv
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest.csv
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest_v3.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-series_v2.csv
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-switzerland-latest.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-total-series.csv
 
-Unversionierte Dateien:
-  (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
-
-	python-scripts/logs/
-
-keine Änderungen zum Commit vorgemerkt (benutzen Sie "git add" und/oder "git commit -a")
