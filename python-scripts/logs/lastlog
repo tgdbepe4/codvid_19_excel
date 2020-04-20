@@ -256,6 +256,42 @@ Zum Commit vorgemerkte Änderungen:
   (benutzen Sie "git reset HEAD <Datei>..." zum Entfernen aus der Staging-Area)
 
 	geändert:       python-scripts/logs/lastlog
+	geändert:       python-scripts/output_canton_series/AG-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/AI-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/AR-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/BE-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/BL-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/BS-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/FL-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/FR-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/GE-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/GL-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/GR-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/JU-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/LU-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/NE-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/NW-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/OW-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/SG-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/SH-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/SO-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/SZ-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/TG-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/TI-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/UR-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/VD-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/VS-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/ZG-canton-time-series.csv
+	geändert:       python-scripts/output_canton_series/ZH-canton-time-series.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest-by-time.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest.csv
+	gelöscht:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest_v2.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest_v3.csv
+	gelöscht:       python-scripts/output_openzh/dd-covid19-openzh-cantons-series.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-series_v2.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-switzerland-latest.csv
+	geändert:       python-scripts/output_openzh/dd-covid19-openzh-total-series.csv
+	gelöscht:       python-scripts/output_openzh/devel-cantons-latest.csv
 
 Änderungen, die nicht zum Commit vorgemerkt sind:
   (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
@@ -292,5 +328,4 @@ Zum Commit vorgemerkte Änderungen:
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest.csv
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-cantons-latest_v3.csv
 	geändert:       python-scripts/output_openzh/dd-covid19-openzh-switzerland-latest.csv
-	geändert:       python-scripts/update.sh
 
