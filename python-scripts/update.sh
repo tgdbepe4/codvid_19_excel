@@ -1,4 +1,5 @@
 #!/bin/bash
+((
 cd /media/pi/Data/covid_19_excel/python-scripts
 
 /usr/bin/python3.7 digest_openzh.py
@@ -12,3 +13,4 @@ git status
 git add .
 git commit -m update
 git push
+) 2>&1) | tee /media/pi/Data/covid_19_excel/python-scripts/logs/lastlog
