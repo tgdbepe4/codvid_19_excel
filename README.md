@@ -33,7 +33,8 @@ Sources are:
 https://raw.githubusercontent.com/zdavatz/covid19_ch/master/data-cantons-csv/dd-covid19-openzh-cantons-series.csv
 https://raw.githubusercontent.com/zdavatz/covid19_ch/master/data-cantons-csv/dd-covid19-openzh-cantons-latest.csv
 https://raw.githubusercontent.com/zdavatz/covid19_ch/master/data-switzerland-csv/dd-covid19-openzh-switzerland-latest.csv
-Because this data is processed in another project with Python:Scripts,  there is a dependency on updating. If the data structure is changed, the updates will no longer work. The data in the Excelfile is then virtually frozen.
+### Limitations
+Because this data is processed in another project with Python Scripts, there is a dependency on updating. If the data structure there is changed, the updates will no longer work. The data in the Excelfile is then  frozen.
 ## Data update
 In Excel, data editing must be enabled. After that, Excel connects the data each time the Excel file is started and updates it every 20 minutes.
 ## Benefits
