@@ -4,14 +4,12 @@ Zurzeit existieren mindestens drei verschiedene Online Covid-19 CH Dashboads. Al
 ## Covid-19 CH als Excelfile
 Die Online Dashboards sind betreffend den Daten und Grafiken statisch. Da heisst, der Endbenutzer hat keine Möglichkeiten die Daten anders auszuwerten und auch andere Grafiken anzufertigen. Daraus entstand die Idee inwieweit sich ein solches Dashboard in MS Excel realisieren liesse. 
 ### Excel mit VBA COde für Updates
-Damit die alle Updates funktionieren bedarf es der Ausführung von VBA Code in Excel. Excel muss dies explizit erlauben. 
-#### VBA COde für Pivot-Tabellen Updates
-Die Covi19-Daten wachsen kontinuierlich und somit auch die Tabellen. Dass die notwendigen Pivot-Tablellen auf die neuen Zeilenlängen angepasst werden ist VBA Code notwendig. Der dafür notwendige COde sieht so aus:
-
+Damit alle Updates funktionieren bedarf es der Ausführung von VBA Code in Excel. In Excel muss dies explizit erlaubt werden.
+#### VBA COde für Pivot-Tabellen-Updates
+Die Covid-19-Daten wachsen kontinuierlich und somit auch die Tabellen. Dass die notwendigen Pivot-Tablellen auf die neuen Zeilenlängen angepasst werden ist VBA Code notwendig. Der dafür notwendige COde sieht so aus:
+Code:
 Private Sub Worksheet_Change(ByVal Target As Range)
-
     Dim Sheet As Worksheet, Pivot As PivotTable
- 
         For Each Sheet In ThisWorkbook.Worksheets
             For Each Pivot In Sheet.PivotTables
                 Pivot.RefreshTable
@@ -20,7 +18,7 @@ Private Sub Worksheet_Change(ByVal Target As Range)
     Next
 End Sub
 #### Datenverbindungen und Probleme beim Start von Excel
-In Excel selbt kann man festlegen, wann und wie of eine Datenverbindung aktualisiert wird So zum Beispiel wie oft und auch beim Start von Excel. wenn man nun die Daten beim Start aktualisieren will so kommt Excel mit der untenstehenden Routine durcheinander und stürzt ab. Die gefundene Lösung schaltet beim Start von Excel den Worksheet_Change Event für ein paar Sekunden aus. Excel kann damit voll aufstarten, die Daten aktualisieren und erst danach auf das Worksheet_Change reagieren.
+In Excel selbt kann man festlegen, wann und wie oft eine Datenverbindung aktualisiert wird, so zum Beispiel wie oft und auch ob beim Start von Excel. Wenn man nun die Daten beim Start aktualisieren will so kommt Excel mit der "Private Sub Worksheet_Change(ByVal Target As Range)" Routine durcheinander und stürzt ab. Die gefundene Lösung schaltet beim Start von Excel den Worksheet_Change Event für ein paar Sekunden aus. Excel kann damit voll aufstarten, die Daten aktualisieren und erst danach auf das Worksheet_Change reagieren.
 Code:
 Private Sub Workbook_Open()
        Application.EnableEvents = False
