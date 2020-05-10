@@ -44,7 +44,7 @@ Die Tabellenblätter „ch_latest“, „kt_latest“, kt_serie“, pivot_kt_lat
 Das Excelfile wird periodisch updated. Die aktuelle Version ist über https://github.com/tgdbepe4/covid_19_excel zu finden.
 ## Kontakt
 Meinungen, Fehlermeldungen, etc bitte an mailto:corona@bergi-it-consulting.ch
-Peter Berger, Zürich, 2020-04-19
+Peter Berger, Zürich, 2020-05-10
 
 # Covid19 CH Dashboard in MS Excel
 ## Starting point
@@ -91,7 +91,7 @@ The worksheets "ch_latest", "kt_latest",  kt_serie",  pivot_kt_latest and "pivot
 The Excelfile is updatedperiodically. The current version can be found via https://github.com/tgdbepe4/covid_19_excel.
 ## Contact
 Opinions, error messages, etc. please contact mailto:corona@bergi-it-consulting.ch
-Peter Berger, Zurich, 2020-04-19
+Peter Berger, Zurich, 2020-05-10
 
 
 
